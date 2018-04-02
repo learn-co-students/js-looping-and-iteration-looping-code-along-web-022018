@@ -20,7 +20,7 @@ describe('index.js', () => {
 
     it('prints out a welcome badge for each employee', () => {
       printBadges(['Joe', 'Gabe']);
-
+      debugger
       expect(spy.calledWithExactly('Welcome Joe! You are employee #1.')).to.be.true;
       expect(spy.calledWithExactly('Welcome Gabe! You are employee #2.')).to.be.true;
     });
